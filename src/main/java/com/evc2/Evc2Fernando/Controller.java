@@ -1,4 +1,4 @@
-package com.example.HolaCodespacesL7;
+package com.evc2.Evc2Fernando;
 
 import java.lang.String;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,17 +11,17 @@ public class Controller{
 
     @GetMapping(path="/")
     public String home(){
-        return "PT72528736 - Julio Rivero";
+        return "A20101890 - Fernando Espinoza";
     }
 
     @GetMapping(path="/idat/codigo")
     public  String codigo(){
-        return "PT72528736";
+        return "A20101890";
     }
 
     @GetMapping(path="/idat/nombre-completo")
     public String nombrecompleto(){
-        return "Julio Aldair Rivero Crisostomo";
+        return "Fernando Manuel Espinoza Salvatierra";
     }
 
     
